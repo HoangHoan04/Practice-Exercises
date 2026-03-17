@@ -1,0 +1,3 @@
+# Ignore dependency folders in all subprojects
+node_modules/
+**/node_modules/
