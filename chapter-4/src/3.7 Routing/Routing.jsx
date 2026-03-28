@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import DetailProduct from "./pages/DetailProduct";
 import AppLayout from "./layout/AppLayout";
+import Parent from "../2.4 Props/Parent";
 
 const Routing = () => {
   return (
@@ -22,6 +23,7 @@ const Routing = () => {
         <Route path="/about" element={<About />} />
         {/* Định nghĩa route cho trang chi tiết sản phẩm với tham số id */}
         <Route path="/product/:id" element={<DetailProduct />} />
+        <Route path="/props" element={<Parent />} />
       </Routes>
     </BrowserRouter>
   );
